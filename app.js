@@ -1,5 +1,5 @@
 
-const fields = ["Web Development", "UI/UX Design", "Operating Systems", "Network Security"];
+const fields = ["Web Development", "Machine Learning", "Android Development"];
 var el = 0; //Indicate how element of fields is currently select for dynamic effect (value 0 to 3) 
 var flag = 0; //status: indicate the function in execution: 0 writer, 1 eraser
 var job = 0; //is current job finish?
