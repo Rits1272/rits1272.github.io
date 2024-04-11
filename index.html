@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-<html>
   <head>
-      <style>
-        html,body{
-    height: 100%;
-}
-
-body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: auto;
-  background-color: #252629;
-}
-
-#welcome {
-top: 30%;
-	font-family: Helvetica, Arial, sans-serif;
-max-width: 100%;
-box-align: center;
-font-size: 5vw; /*or vh depends*/
-text-align: center;
-color: white;
-margin: auto;
-position: relative;    
-} 
-
-@media screen and (min-width: 1200px){
-#welcome{
-top: 20%;
-font-size: 17vh;}
-}
-        </style>
     <meta charset="utf-8">
-    <title id="title">Ritik Jain</title>
-    <script src = './app.js'></script>
-    <link rel='stylesheet' ref='app.css'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ritik Jain</title>
+    <link rel="icon" href="./media/ironman.jpeg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
   </head>
-  <body>
-    <div id="welcome">
-      Welcome! I'm Ritik Jain. <br/>
-      I like <div id="message"></div>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<body>
+  <div class="container">
+    <nav class="nav justify-content-center nav-custom">
+      <a class="nav-link brand" href="#">RITIK&nbsp;&nbsp;JAIN</a>
+      <a class="nav-link headings" href="#">About</a>
+      <a class="nav-link headings" href="#">Projects</a>
+    </nav>
+    <div class="main">
+      <div class="image-holder">
+        <img src="./media/portfolio.jpg" class="image"/>
+      </div>
+      <div class="introduction">
+        <h3 class="introduction-content">Hey, I'm Ritik, and</h3>
+        <h3 class="introduction-content">I'm a software engineer :)</h3>
+        <div class="social-handles">
+          <a class="fa-brands fa-twitter icon twitter" href="https://twitter.com/rits1272" target="_blank"></a>
+          <a class="fa-brands fa-linkedin icon linkedin" href="https://linkedin.com/in/rits1272" target="_blank"></a>
+          <a class="fa-brands fa-github icon github" href="https://github.com/rits1272" target="_blank"></a>
+          <a class="fa-solid fa-envelope icon gmail" href="mailto:ritikjain1272@gmail.com" target="_blank"></a>
+          <a class="fa-solid fa-file-waveform icon resume" target="_blank"></a>
+        </div>
+      </div>
     </div>
+   </div>
   </body>
 </html>
